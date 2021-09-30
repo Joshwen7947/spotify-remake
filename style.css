@@ -41,6 +41,7 @@ body {
 	justify-content: space-around;
 	min-height: 60vh;
 	padding-top: 100px;
+	flex-wrap: wrap;
 }
 .content img {
 	height: 50%;
@@ -56,6 +57,7 @@ body {
 .text .title2 {
 	font-size: 3rem;
 	font-weight: 700;
+	padding: 15px 0;
 }
 .text .content img {
 	height: 60%;
@@ -85,6 +87,7 @@ body {
 	justify-content: space-around;
 	min-height: 60vh;
 	padding-top: 100px;
+	flex-wrap: wrap;
 }
 
 .pink-content img {
@@ -145,6 +148,7 @@ button:hover {
 
 .blue-content {
 	padding: 50px 100px;
+	flex-wrap: wrap;
 }
 .blue-content .title1 {
 	font-weight: 600;
@@ -187,8 +191,58 @@ footer a {
 footer a:hover {
 	text-decoration: underline;
 }
-
-/* #left-box {
+.footer-container {
+	display: flex;
+}
+#left-box {
 	display: flex;
 	flex-direction: row;
-} */
+	margin-left: 200px;
+	padding-top: 50px;
+}
+h4 {
+	color: white;
+	text-decoration: underline;
+}
+.company {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0 25px;
+	line-height: 25px;
+}
+
+.community {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0 25px;
+	line-height: 25px;
+}
+
+.footer-links {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0 25px;
+	line-height: 25px;
+}
+
+.right-box {
+	position: relative;
+	left: 250px;
+	top: 50px;
+}
+
+.footer-legal-links {
+	padding: 25px 0;
+}
+.footer-legal-links a {
+	padding: 20px 10px;
+}
+.row2 {
+	float: right;
+}
